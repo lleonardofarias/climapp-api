@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+ django:
+   image: django-climapi:0.0.1
+   build: .
+   ports:
+     - "your port"
